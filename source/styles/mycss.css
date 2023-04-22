@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono&display=swap');
+body {
+    font-family: Roboto Mono 
+    ;
+    background: linear-gradient(90deg, #FFFFFF 0%, #DEDEDE 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(94, 113, 107);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(112, 112, 112);
+}
+
+.sidebar {
+    color: black;
+    background: linear-gradient(270deg, #FFFFFF 0%, #DEDEDE 100%);
+
+}
+
+.card {
+    background: linear-gradient(270deg, #FFFFFF 0%, #DEDEDE 100%);
+}
+
+.card p>a,
+.card h5>a {
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg, #FFFFFF 0%, #DEDEDE 100%);
+}
+
+@media (max-width: 775px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
